@@ -105,11 +105,11 @@ const RoomCard = ({ name, description, users, meetingEnabled, onEnterRoom, onEnt
       </CardActionArea>
       <CardActions>
         <Button size="small" color="primary" onClick={onEnterRoom}>
-          Enter room
+          Entrar na Sala
         </Button>
         {meetingEnabled && (
           <Button size="small" color="primary" onClick={onEnterMeeting}>
-            Enter meeting
+            Entrar na Reunião
           </Button>
         )}
       </CardActions>

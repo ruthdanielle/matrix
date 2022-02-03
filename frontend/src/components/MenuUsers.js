@@ -61,7 +61,7 @@ const MenuUsers = ({
           <SearchIcon />
         </div>
         <InputBase
-          placeholder="Search users..."
+          placeholder="Pesquisar..."
           classes={{
             root: classes.inputRoot,
             input: classes.inputInput
